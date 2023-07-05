@@ -86,3 +86,7 @@ Feel free to customize and modify this contract to suit your specific use case.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Disclaimer
+
+This project is but an example project, it is not for the purpose of commercial use.
