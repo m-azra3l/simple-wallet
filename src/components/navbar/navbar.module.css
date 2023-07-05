@@ -44,6 +44,10 @@
   border-radius: 3px;
 }
 
+.accent {
+  color: hsl(var(--accent));
+}
+
 /* links and buttons */
 
 :where(a, .btn) {
@@ -72,34 +76,4 @@
 :where(a, .btn):is(:hover, :focus-visible) {
   -webkit-box-shadow: 0 0 0 3px hsl(var(--bkg)), 0 0 0 6px var(--backdrop);
   box-shadow: 0 0 0 3px hsl(var(--bkg)), 0 0 0 6px var(--backdrop);
-}
-
-:where(.btn) {
-  --color: hsl(var(--bkg));
-  background-color: var(--backdrop);
-  color: var(--color);
-  padding: var(--space-xs) var(--space-sm);
-  border: 2px solid var(--backdrop);
-  font-size: var(--fs-300);
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: var(--space-xs);
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  cursor: pointer;
-}
-
-:where(.btn):is(:hover, :focus-visible) {
-  background-color: var(--backdrop);
-  color: var(--color);
-}
-
-:where(.btn_dark) {
-  --backdrop: hsl(var(--text));
 }

@@ -38,9 +38,7 @@ next-env.d.ts
 
 yarn.lock
 
-/contracts
+
 /backup
-/test
-/scripts
-/artifacts
-/cache
+*.txt
+4.5.0

@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-text-size-adjust",
+          "font-synthesis",
+          "backdrop-filter",
+          "-ms-grid-row-align",
+          "-ms-grid-column-align"
+        ]
+      }
+    ]
+  }
+}

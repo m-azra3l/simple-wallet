@@ -1,0 +1,3715 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\core\\BaseAccount.sol": {
+      "lastModificationDate": 1688246358897,
+      "contentHash": "a53a173b72742916b9c1cfef610f64b1",
+      "sourceName": "contracts/core/BaseAccount.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IAccount.sol",
+        "../interfaces/IEntryPoint.sol",
+        "./Helpers.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "BaseAccount"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\interfaces\\IAccount.sol": {
+      "lastModificationDate": 1688246359096,
+      "contentHash": "6d787a742dcf67af8bebad8a8db7b78e",
+      "sourceName": "contracts/interfaces/IAccount.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UserOperation.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IAccount"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\interfaces\\IEntryPoint.sol": {
+      "lastModificationDate": 1688246359146,
+      "contentHash": "f88a97ac988a378551551be9ea4ee65e",
+      "sourceName": "contracts/interfaces/IEntryPoint.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UserOperation.sol",
+        "./IStakeManager.sol",
+        "./IAggregator.sol",
+        "./INonceManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IEntryPoint"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\core\\Helpers.sol": {
+      "lastModificationDate": 1688246358989,
+      "contentHash": "3cbc58efa815f026e5e180817b65c653",
+      "sourceName": "contracts/core/Helpers.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": []
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\interfaces\\UserOperation.sol": {
+      "lastModificationDate": 1688246359253,
+      "contentHash": "e605ec59ee4889ea6ef8b5332e7da0d8",
+      "sourceName": "contracts/interfaces/UserOperation.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../core/Helpers.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "UserOperationLib"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\interfaces\\IStakeManager.sol": {
+      "lastModificationDate": 1688246359227,
+      "contentHash": "e5c534a14fbf384a02ed5f007d54b1f0",
+      "sourceName": "contracts/interfaces/IStakeManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IStakeManager"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\interfaces\\IAggregator.sol": {
+      "lastModificationDate": 1688246359119,
+      "contentHash": "70c22a1f7e8ee0bd97fcabb493c4fca6",
+      "sourceName": "contracts/interfaces/IAggregator.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UserOperation.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IAggregator"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\interfaces\\INonceManager.sol": {
+      "lastModificationDate": 1688246359177,
+      "contentHash": "58293337a68c401ac395a955ab972702",
+      "sourceName": "contracts/interfaces/INonceManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "INonceManager"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\SimpleAccount.sol": {
+      "lastModificationDate": 1688409123586,
+      "contentHash": "8883ed0353eb85999dba9fae5eb8467a",
+      "sourceName": "contracts/samples/SimpleAccount.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
+        "@openzeppelin/contracts/proxy/utils/Initializable.sol",
+        "@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol",
+        "../core/BaseAccount.sol",
+        "./callback/TokenCallbackHandler.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "SimpleAccount"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\callback\\TokenCallbackHandler.sol": {
+      "lastModificationDate": 1688246359771,
+      "contentHash": "21bec772e7d7c8f85367728487148cf3",
+      "sourceName": "contracts/samples/callback/TokenCallbackHandler.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "@openzeppelin/contracts/token/ERC777/IERC777Recipient.sol",
+        "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+        "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TokenCallbackHandler"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\proxy\\utils\\Initializable.sol": {
+      "lastModificationDate": 1685450762278,
+      "contentHash": "19c4fbc3e825d25231b09f13aff9a2b2",
+      "sourceName": "@openzeppelin/contracts/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\utils\\cryptography\\ECDSA.sol": {
+      "lastModificationDate": 1685450761982,
+      "contentHash": "fe1190dbb6431c2464246925713f0f7f",
+      "sourceName": "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Strings.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\proxy\\utils\\UUPSUpgradeable.sol": {
+      "lastModificationDate": 1685450762374,
+      "contentHash": "72741fcafc308d461962c96309d81342",
+      "sourceName": "@openzeppelin/contracts/proxy/utils/UUPSUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/draft-IERC1822.sol",
+        "../ERC1967/ERC1967Upgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UUPSUpgradeable"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
+      "lastModificationDate": 1687271655502,
+      "contentHash": "c22d4395e33763de693fd440c6fd10e1",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1687271655447,
+      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\token\\ERC777\\IERC777Recipient.sol": {
+      "lastModificationDate": 1687271655510,
+      "contentHash": "268af1696d7a83a7e78a1a8f5ba1c685",
+      "sourceName": "@openzeppelin/contracts/token/ERC777/IERC777Recipient.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC777Recipient"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155Receiver.sol": {
+      "lastModificationDate": 1687271655437,
+      "contentHash": "9f8822b72fe2702979e40160cb6d9636",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155Receiver"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1685450761922,
+      "contentHash": "f31ad6fc4bbf9c06203987220156a6ba",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1685450762365,
+      "contentHash": "396031251978f8febfd90cb62cb240ec",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./math/Math.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
+      "lastModificationDate": 1685450762289,
+      "contentHash": "b9c58920ce74d6dc819161786112e7ee",
+      "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
+      "lastModificationDate": 1687271655591,
+      "contentHash": "9488ebd4daacfee8ad04811600d7d061",
+      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SignedMath"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC1822.sol": {
+      "lastModificationDate": 1687271655251,
+      "contentHash": "2858d98e74e67987ec81b39605230b74",
+      "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC1822.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1822Proxiable"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\proxy\\ERC1967\\ERC1967Upgrade.sol": {
+      "lastModificationDate": 1685450762008,
+      "contentHash": "6baa887a798e95b14f34e093f117e9b2",
+      "sourceName": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../beacon/IBeacon.sol",
+        "../../interfaces/draft-IERC1822.sol",
+        "../../utils/Address.sol",
+        "../../utils/StorageSlot.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "ERC1967Upgrade"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\utils\\StorageSlot.sol": {
+      "lastModificationDate": 1685450762363,
+      "contentHash": "f993f8f50186952a59ee5e3a30b68222",
+      "sourceName": "@openzeppelin/contracts/utils/StorageSlot.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StorageSlot"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\proxy\\beacon\\IBeacon.sol": {
+      "lastModificationDate": 1687271655414,
+      "contentHash": "b6bd23bf19e90b771337037706470933",
+      "sourceName": "@openzeppelin/contracts/proxy/beacon/IBeacon.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBeacon"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestSignatureAggregator.sol": {
+      "lastModificationDate": 1688246360217,
+      "contentHash": "6ed313e6dfbd3a0f1df8111aab2defd9",
+      "sourceName": "contracts/test/TestSignatureAggregator.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IAggregator.sol",
+        "../interfaces/IEntryPoint.sol",
+        "../samples/SimpleAccount.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestSignatureAggregator"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestWarmColdAccount.sol": {
+      "lastModificationDate": 1688246360299,
+      "contentHash": "1f4b5dcea152eeeffa2f528f34c869f5",
+      "sourceName": "contracts/test/TestWarmColdAccount.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IEntryPoint.sol",
+        "../interfaces/IAccount.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestWarmColdAccount"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\MaliciousAccount.sol": {
+      "lastModificationDate": 1688246359936,
+      "contentHash": "ba4c17a5513ff75f6ae4b583b7adb8d3",
+      "sourceName": "contracts/test/MaliciousAccount.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IAccount.sol",
+        "../interfaces/IEntryPoint.sol",
+        "../core/EntryPoint.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "MaliciousAccount"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\core\\EntryPoint.sol": {
+      "lastModificationDate": 1688246358956,
+      "contentHash": "ad550e84f21c0a82e53abdca70feafee",
+      "sourceName": "contracts/core/EntryPoint.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IAccount.sol",
+        "../interfaces/IPaymaster.sol",
+        "../interfaces/IEntryPoint.sol",
+        "../utils/Exec.sol",
+        "./StakeManager.sol",
+        "./SenderCreator.sol",
+        "./Helpers.sol",
+        "./NonceManager.sol",
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "EntryPoint"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\interfaces\\IPaymaster.sol": {
+      "lastModificationDate": 1688246359196,
+      "contentHash": "4737c1fae42666f1b91fdac6a612076b",
+      "sourceName": "contracts/interfaces/IPaymaster.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UserOperation.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IPaymaster"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\utils\\Exec.sol": {
+      "lastModificationDate": 1688246360336,
+      "contentHash": "4e8f2b61ef7b1a60ae834edb15752735",
+      "sourceName": "contracts/utils/Exec.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.5 <0.9.0"
+      ],
+      "artifacts": [
+        "Exec"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\core\\StakeManager.sol": {
+      "lastModificationDate": 1688246359057,
+      "contentHash": "613d8c20b990bcf8cf2131ae2130a2c8",
+      "sourceName": "contracts/core/StakeManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IStakeManager.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "StakeManager"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\core\\SenderCreator.sol": {
+      "lastModificationDate": 1688246359038,
+      "contentHash": "4910181341b8875940c6ea89500377a0",
+      "sourceName": "contracts/core/SenderCreator.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "SenderCreator"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\core\\NonceManager.sol": {
+      "lastModificationDate": 1688246359007,
+      "contentHash": "6a3c752314494381d38f83abba1bdba4",
+      "sourceName": "contracts/core/NonceManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IEntryPoint.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "NonceManager"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\security\\ReentrancyGuard.sol": {
+      "lastModificationDate": 1685450762350,
+      "contentHash": "a8e2d1c30042f64ed89c9d4157eb6cb9",
+      "sourceName": "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestHelpers.sol": {
+      "lastModificationDate": 1688246360096,
+      "contentHash": "ace47e2b094f7dab083f18edbeb7a0bc",
+      "sourceName": "contracts/test/TestHelpers.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../core/Helpers.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestHelpers"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestUtil.sol": {
+      "lastModificationDate": 1688246360271,
+      "contentHash": "a71ab4955c2409bb22d1d1d8696a6717",
+      "sourceName": "contracts/test/TestUtil.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/UserOperation.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestUtil"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\core\\BasePaymaster.sol": {
+      "lastModificationDate": 1688246358923,
+      "contentHash": "37ecd8efd5cfa4f0c54f396ab6eade25",
+      "sourceName": "contracts/core/BasePaymaster.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "../interfaces/IPaymaster.sol",
+        "../interfaces/IEntryPoint.sol",
+        "./Helpers.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "BasePaymaster"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1685450762342,
+      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1687271655218,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestPaymasterAcceptAll.sol": {
+      "lastModificationDate": 1688246360158,
+      "contentHash": "cf2b740ca74c6b6ada39bedec221d68f",
+      "sourceName": "contracts/test/TestPaymasterAcceptAll.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../core/BasePaymaster.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestPaymasterAcceptAll"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestExpirePaymaster.sol": {
+      "lastModificationDate": 1688246360047,
+      "contentHash": "9196a6f023f428c35095edf5a460ce79",
+      "sourceName": "contracts/test/TestExpirePaymaster.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../core/BasePaymaster.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestExpirePaymaster"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\VerifyingPaymaster.sol": {
+      "lastModificationDate": 1688246359416,
+      "contentHash": "d6765ef1f84da6f7529c59f1d1235908",
+      "sourceName": "contracts/samples/VerifyingPaymaster.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../core/BasePaymaster.sol",
+        "@openzeppelin/contracts/utils/cryptography/ECDSA.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "VerifyingPaymaster"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\gnosis\\EIP4337Manager.sol": {
+      "lastModificationDate": 1688246359837,
+      "contentHash": "273453c8019c3a7a4766c77b68a61c8b",
+      "sourceName": "contracts/samples/gnosis/EIP4337Manager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
+        "@gnosis.pm/safe-contracts/contracts/GnosisSafe.sol",
+        "@gnosis.pm/safe-contracts/contracts/base/Executor.sol",
+        "@gnosis.pm/safe-contracts/contracts/examples/libraries/GnosisSafeStorage.sol",
+        "./EIP4337Fallback.sol",
+        "../../interfaces/IAccount.sol",
+        "../../interfaces/IEntryPoint.sol",
+        "../../utils/Exec.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "EIP4337Manager"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\gnosis\\EIP4337Fallback.sol": {
+      "lastModificationDate": 1688246359806,
+      "contentHash": "c859b78a60a63821fa04b96280d9185b",
+      "sourceName": "contracts/samples/gnosis/EIP4337Fallback.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@gnosis.pm/safe-contracts/contracts/handler/DefaultCallbackHandler.sol",
+        "@gnosis.pm/safe-contracts/contracts/GnosisSafe.sol",
+        "@openzeppelin/contracts/interfaces/IERC1271.sol",
+        "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
+        "../../interfaces/IAccount.sol",
+        "./EIP4337Manager.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "EIP4337Fallback"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\GnosisSafe.sol": {
+      "lastModificationDate": 1688381915723,
+      "contentHash": "6302a9ad4b2767251b680676d0dfa334",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/GnosisSafe.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./base/ModuleManager.sol",
+        "./base/OwnerManager.sol",
+        "./base/FallbackManager.sol",
+        "./base/GuardManager.sol",
+        "./common/EtherPaymentFallback.sol",
+        "./common/Singleton.sol",
+        "./common/SignatureDecoder.sol",
+        "./common/SecuredTokenTransfer.sol",
+        "./common/StorageAccessible.sol",
+        "./interfaces/ISignatureValidator.sol",
+        "./external/GnosisSafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "GnosisSafe"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\base\\Executor.sol": {
+      "lastModificationDate": 1688381915763,
+      "contentHash": "5d439865306475654cf018596f1b1061",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/base/Executor.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Executor"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\examples\\libraries\\GnosisSafeStorage.sol": {
+      "lastModificationDate": 1688381916774,
+      "contentHash": "62d516f9db15e3e52638095ba56f2fed",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/examples/libraries/GnosisSafeStorage.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "GnosisSafeStorage"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC1271.sol": {
+      "lastModificationDate": 1687271655438,
+      "contentHash": "8fe867b95c856b204f954a1910e28a1e",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC1271.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1271"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\handler\\DefaultCallbackHandler.sol": {
+      "lastModificationDate": 1688381915786,
+      "contentHash": "5a4fbd56521d514530c7f6206e8eca89",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/handler/DefaultCallbackHandler.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/ERC1155TokenReceiver.sol",
+        "../interfaces/ERC721TokenReceiver.sol",
+        "../interfaces/ERC777TokensRecipient.sol",
+        "../interfaces/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "DefaultCallbackHandler"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\base\\FallbackManager.sol": {
+      "lastModificationDate": 1688381915763,
+      "contentHash": "de30ab56ace98b84e2a047164e06d0c5",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/base/FallbackManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "FallbackManager"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\base\\ModuleManager.sol": {
+      "lastModificationDate": 1688381915763,
+      "contentHash": "90b2541c32a7644991f6ec3510dc3776",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/base/ModuleManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol",
+        "../common/SelfAuthorized.sol",
+        "./Executor.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ModuleManager"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\base\\GuardManager.sol": {
+      "lastModificationDate": 1688381915763,
+      "contentHash": "30b3fe3c67c994d66c5965199d64d86d",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/base/GuardManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../common/Enum.sol",
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Guard",
+        "GuardManager"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\base\\OwnerManager.sol": {
+      "lastModificationDate": 1688381915763,
+      "contentHash": "53e497cc090cb4931ca5905d7f671cc5",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/base/OwnerManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../common/SelfAuthorized.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "OwnerManager"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\common\\Singleton.sol": {
+      "lastModificationDate": 1688381915780,
+      "contentHash": "334ef119459ae9a5487c6bd346752778",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/common/Singleton.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Singleton"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\common\\EtherPaymentFallback.sol": {
+      "lastModificationDate": 1688381915763,
+      "contentHash": "566ab89634daf8e542177b1e7016971e",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/common/EtherPaymentFallback.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "EtherPaymentFallback"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\common\\SignatureDecoder.sol": {
+      "lastModificationDate": 1688381915779,
+      "contentHash": "c42a4ba77188fde1fff8281ea700f4fa",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/common/SignatureDecoder.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SignatureDecoder"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\common\\SecuredTokenTransfer.sol": {
+      "lastModificationDate": 1688381915763,
+      "contentHash": "80c88034d9e09f88f6853fc707cf03c6",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/common/SecuredTokenTransfer.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SecuredTokenTransfer"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\common\\StorageAccessible.sol": {
+      "lastModificationDate": 1688381915780,
+      "contentHash": "b2008c1f9b2cb3bbda6710f462ae7c1f",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/common/StorageAccessible.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "StorageAccessible"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\interfaces\\ISignatureValidator.sol": {
+      "lastModificationDate": 1688381915809,
+      "contentHash": "45be433b79d00dd9f3b8047489c3ff80",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/interfaces/ISignatureValidator.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ISignatureValidator",
+        "ISignatureValidatorConstants"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\external\\GnosisSafeMath.sol": {
+      "lastModificationDate": 1688381915786,
+      "contentHash": "0b98e5ff6cd364731017082744cf5706",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/external/GnosisSafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "GnosisSafeMath"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\common\\SelfAuthorized.sol": {
+      "lastModificationDate": 1688381915763,
+      "contentHash": "4c773e803298d5521ba60d7fc06df0b3",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/common/SelfAuthorized.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SelfAuthorized"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\common\\Enum.sol": {
+      "lastModificationDate": 1688381915763,
+      "contentHash": "70d93d6b3e8b23f419fe3e529a43c17e",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/common/Enum.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Enum"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\interfaces\\IERC165.sol": {
+      "lastModificationDate": 1688381915805,
+      "contentHash": "2d418698dff7323e4f199ff8633d1a3a",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\interfaces\\ERC1155TokenReceiver.sol": {
+      "lastModificationDate": 1688381915799,
+      "contentHash": "1d63defb083613ac870a97490f3635ba",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/interfaces/ERC1155TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ERC1155TokenReceiver"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\interfaces\\ERC721TokenReceiver.sol": {
+      "lastModificationDate": 1688381915801,
+      "contentHash": "ffac82dd785c225e65d296c1c6596d5a",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/interfaces/ERC721TokenReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ERC721TokenReceiver"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\interfaces\\ERC777TokensRecipient.sol": {
+      "lastModificationDate": 1688381915805,
+      "contentHash": "38601f7aa7b8c19d689915aeda071ef0",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/interfaces/ERC777TokensRecipient.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "ERC777TokensRecipient"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\gnosis\\GnosisAccountFactory.sol": {
+      "lastModificationDate": 1688246359872,
+      "contentHash": "e2581fc4f3867e61c78d1f2edf59d43e",
+      "sourceName": "contracts/samples/gnosis/GnosisAccountFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Create2.sol",
+        "@gnosis.pm/safe-contracts/contracts/proxies/GnosisSafeProxyFactory.sol",
+        "./EIP4337Manager.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "GnosisSafeAccountFactory"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\utils\\Create2.sol": {
+      "lastModificationDate": 1685450761936,
+      "contentHash": "e668137caad722e30909c5325d2c4282",
+      "sourceName": "@openzeppelin/contracts/utils/Create2.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Create2"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\proxies\\GnosisSafeProxyFactory.sol": {
+      "lastModificationDate": 1688381915817,
+      "contentHash": "1c6f2708f7097b32396e492b6d545f07",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/proxies/GnosisSafeProxyFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./GnosisSafeProxy.sol",
+        "./IProxyCreationCallback.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "GnosisSafeProxyFactory"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\proxies\\GnosisSafeProxy.sol": {
+      "lastModificationDate": 1688381915817,
+      "contentHash": "eba113f6899fe142a2081f63aded8c83",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/proxies/GnosisSafeProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "GnosisSafeProxy",
+        "IProxy"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@gnosis.pm\\safe-contracts\\contracts\\proxies\\IProxyCreationCallback.sol": {
+      "lastModificationDate": 1688381915817,
+      "contentHash": "e73c0b8a985873c817469f5c6038e233",
+      "sourceName": "@gnosis.pm/safe-contracts/contracts/proxies/IProxyCreationCallback.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./GnosisSafeProxy.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "IProxyCreationCallback"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestAggregatedAccountFactory.sol": {
+      "lastModificationDate": 1688246359987,
+      "contentHash": "f465bc9660879667518c897a114109f0",
+      "sourceName": "contracts/test/TestAggregatedAccountFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Create2.sol",
+        "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
+        "./TestAggregatedAccount.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestAggregatedAccountFactory"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestAggregatedAccount.sol": {
+      "lastModificationDate": 1688246359967,
+      "contentHash": "56a9e453d1d21cda155e3a28905289cc",
+      "sourceName": "contracts/test/TestAggregatedAccount.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../samples/SimpleAccount.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestAggregatedAccount"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\proxy\\ERC1967\\ERC1967Proxy.sol": {
+      "lastModificationDate": 1685450762006,
+      "contentHash": "3fc3c7c0a2956f36e766691bb9473b06",
+      "sourceName": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Proxy.sol",
+        "./ERC1967Upgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1967Proxy"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\proxy\\Proxy.sol": {
+      "lastModificationDate": 1687271655559,
+      "contentHash": "40b3d81a836d50ff47e03893dcaaf204",
+      "sourceName": "@openzeppelin/contracts/proxy/Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
+      "lastModificationDate": 1685450762355,
+      "contentHash": "0320a90f714843ca19373ed143fc4466",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol",
+        "../extensions/draft-IERC20Permit.sol",
+        "../../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1685450762238,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1685450762240,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1685450762138,
+      "contentHash": "834a0dde221759af42b030253315b086",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestToken.sol": {
+      "lastModificationDate": 1688246360247,
+      "contentHash": "e53f78054e6bf57a4b1720c6a8f2ead6",
+      "sourceName": "contracts/test/TestToken.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestToken"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\TokenPaymaster.sol": {
+      "lastModificationDate": 1688246359387,
+      "contentHash": "7da1dc071f4d04bf084e7efc522150e0",
+      "sourceName": "contracts/samples/TokenPaymaster.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "../core/BasePaymaster.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TokenPaymaster"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\DepositPaymaster.sol": {
+      "lastModificationDate": 1688246359282,
+      "contentHash": "0348ec01def50c5db2a48a9ec39606af",
+      "sourceName": "contracts/samples/DepositPaymaster.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+        "../core/BasePaymaster.sol",
+        "./IOracle.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "DepositPaymaster"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\IOracle.sol": {
+      "lastModificationDate": 1688246359312,
+      "contentHash": "8b7f43fec73780517a1617e4300522c2",
+      "sourceName": "contracts/samples/IOracle.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "IOracle"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestOracle.sol": {
+      "lastModificationDate": 1688246360129,
+      "contentHash": "08d9a11fdf44ed233036ef496ba2d1c0",
+      "sourceName": "contracts/test/TestOracle.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../samples/IOracle.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestOracle"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\BrokenBlsAccount.sol": {
+      "lastModificationDate": 1688246359910,
+      "contentHash": "50f6a93956e7988af351ce12c6b6932c",
+      "sourceName": "contracts/test/BrokenBlsAccount.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Create2.sol",
+        "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
+        "../samples/SimpleAccount.sol",
+        "../samples/bls/IBLSAccount.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "BrokenBLSAccount",
+        "BrokenBLSAccountFactory"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\bls\\IBLSAccount.sol": {
+      "lastModificationDate": 1688246359568,
+      "contentHash": "56747673a6dfe6948b08138ae507219d",
+      "sourceName": "contracts/samples/bls/IBLSAccount.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IAccount.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.6"
+      ],
+      "artifacts": [
+        "IBLSAccount"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\bls\\BLSSignatureAggregator.sol": {
+      "lastModificationDate": 1688246359537,
+      "contentHash": "d52d125af5348c2d3b1296adcaceac38",
+      "sourceName": "contracts/samples/bls/BLSSignatureAggregator.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IAggregator.sol",
+        "../../interfaces/IEntryPoint.sol",
+        "./lib/BLSOpen.sol",
+        "./IBLSAccount.sol",
+        "./BLSHelper.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.4 <0.9.0"
+      ],
+      "artifacts": [
+        "BLSSignatureAggregator"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\bls\\BLSHelper.sol": {
+      "lastModificationDate": 1688246359507,
+      "contentHash": "16b89f26dc41536e2fbae18db07a9ecd",
+      "sourceName": "contracts/samples/bls/BLSHelper.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "BLSHelper"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\bls\\lib\\BLSOpen.sol": {
+      "lastModificationDate": 1688246359596,
+      "contentHash": "400b3a62e88e745334a62bc8179732ad",
+      "sourceName": "contracts/samples/bls/lib/BLSOpen.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./hubble-contracts/contracts/libs/BLS.sol"
+      ],
+      "versionPragmas": [
+        ">= 0.6.12"
+      ],
+      "artifacts": [
+        "BLSOpen"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\bls\\lib\\hubble-contracts\\contracts\\libs\\BLS.sol": {
+      "lastModificationDate": 1688246359665,
+      "contentHash": "d92df49e4184b24da17413ab9ea31e4b",
+      "sourceName": "contracts/samples/bls/lib/hubble-contracts/contracts/libs/BLS.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ModExp.sol",
+        "./BNPairingPrecompileCostEstimator.sol"
+      ],
+      "versionPragmas": [
+        ">= 0.6.12"
+      ],
+      "artifacts": [
+        "BLS"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\bls\\lib\\hubble-contracts\\contracts\\libs\\BNPairingPrecompileCostEstimator.sol": {
+      "lastModificationDate": 1688246359702,
+      "contentHash": "1e935d3450d1069c5b923f0dee20925e",
+      "sourceName": "contracts/samples/bls/lib/hubble-contracts/contracts/libs/BNPairingPrecompileCostEstimator.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.12"
+      ],
+      "artifacts": [
+        "BNPairingPrecompileCostEstimator"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\bls\\lib\\hubble-contracts\\contracts\\libs\\ModExp.sol": {
+      "lastModificationDate": 1688246359731,
+      "contentHash": "752f7f550d91a76ef82dc3b49654d6ce",
+      "sourceName": "contracts/samples/bls/lib/hubble-contracts/contracts/libs/ModExp.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.6.12"
+      ],
+      "artifacts": [
+        "ModexpInverse",
+        "ModexpSqrt"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\bls\\BLSAccount.sol": {
+      "lastModificationDate": 1688246359454,
+      "contentHash": "f9b987d79ac20309ed8300db5021a3de",
+      "sourceName": "contracts/samples/bls/BLSAccount.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../SimpleAccount.sol",
+        "./IBLSAccount.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "BLSAccount"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\bls\\BLSAccountFactory.sol": {
+      "lastModificationDate": 1688246359477,
+      "contentHash": "17411561c311e7843b70290f537ef037",
+      "sourceName": "contracts/samples/bls/BLSAccountFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Create2.sol",
+        "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
+        "../../interfaces/IEntryPoint.sol",
+        "./BLSAccount.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "BLSAccountFactory"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\samples\\SimpleAccountFactory.sol": {
+      "lastModificationDate": 1688450185830,
+      "contentHash": "6a983821f1d3434ee677afe90be53802",
+      "sourceName": "contracts/samples/SimpleAccountFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Create2.sol",
+        "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
+        "./SimpleAccount.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "SimpleAccountFactory"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestRevertAccount.sol": {
+      "lastModificationDate": 1688246360190,
+      "contentHash": "65a3f8c65c0bbf9bad113e51ccea3874",
+      "sourceName": "contracts/test/TestRevertAccount.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../samples/SimpleAccount.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestRevertAccount"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestExpiryAccount.sol": {
+      "lastModificationDate": 1688246360066,
+      "contentHash": "1f79ad8f24268dc8d95ad1ea8a106b8c",
+      "sourceName": "contracts/test/TestExpiryAccount.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../samples/SimpleAccount.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestExpiryAccount"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\contracts\\test\\TestCounter.sol": {
+      "lastModificationDate": 1688246360016,
+      "contentHash": "ab544ffb0e5656f6abef5b44bb1de84f",
+      "sourceName": "contracts/test/TestCounter.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "TestCounter"
+      ]
+    },
+    "C:\\Users\\gadre\\Documents\\GitHub\\simple-wallet\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\draft-IERC20Permit.sol": {
+      "lastModificationDate": 1685450761957,
+      "contentHash": "fb77f144244b9ab12533aa6ce85ef8c5",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Permit"
+      ]
+    }
+  }
+}

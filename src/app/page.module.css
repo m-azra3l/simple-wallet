@@ -1,9 +1,9 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  min-height: 100vh;
+  padding-top: 80px;
+  min-height: calc(100vh - 50px);
 }
 
 .description {
@@ -82,7 +82,6 @@
 }
 
 .center::before {
-  background: var(--secondary-glow);
   border-radius: 50%;
   width: 480px;
   height: 360px;
@@ -90,7 +89,6 @@
 }
 
 .center::after {
-  background: var(--primary-glow);
   width: 240px;
   height: 180px;
   z-index: -1;
